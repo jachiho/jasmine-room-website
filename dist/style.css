@@ -42,3 +42,30 @@
 .menu-detail-yum-cha{--menu-image:url('/images/menu/yum-cha.webp')}.menu-detail-a-la-carte{--menu-image:url('/images/menu/a-la-carte.webp')}.menu-detail-banquets{--menu-image:url('/images/menu/banquets.webp')}.menu-detail-takeaway{--menu-image:url('/images/menu/takeaway.webp')}.menu-detail .sub-hero::before{background-image:linear-gradient(90deg,#160e1cef 0%,#160e1cb3 53%,#160e1c50 100%),var(--menu-image);background-size:cover;background-position:center;filter:saturate(.82) contrast(1.05)}
 @media(max-width:760px){.menu-detail .sub-hero::before{background-image:linear-gradient(90deg,#160e1ce9 0%,#160e1cb8 72%,#160e1c82 100%),var(--menu-image);background-position:center}.menu-card-image{aspect-ratio:1.5}}
 @media(prefers-reduced-motion:reduce){.menu-card-image img{transition:none}}
+
+/* Homepage language preview */
+.nav .lang-switch{color:var(--gold);border-left:1px solid #c8a97580;padding-left:22px;white-space:nowrap;letter-spacing:.04em!important}
+.zh-home{font-family:"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif}
+.zh-home .brand{font-family:"Songti TC","Noto Serif TC","Source Han Serif TC",serif;letter-spacing:.08em}
+.zh-home .intro::after{content:'百';font-family:"Songti TC","Noto Serif TC","Source Han Serif TC",serif;font-size:34rem;bottom:-150px}
+.zh-home h1,.zh-home h2,.zh-home h3,.zh-home .footer-line{font-family:"Songti TC","Noto Serif TC","Source Han Serif TC",serif;font-weight:400;letter-spacing:.035em}
+.zh-home .hero h1{font-size:clamp(4.3rem,8.7vw,8.8rem);line-height:1.14;letter-spacing:.055em;max-width:960px}
+.zh-home h2{font-size:clamp(3.3rem,5.2vw,5.8rem);line-height:1.2}
+.zh-home .eyebrow,.zh-home .button,.zh-home .text-link,.zh-home .nav>a{letter-spacing:.07em}
+.zh-home .intro-note{font-family:"Songti TC","Noto Serif TC","Source Han Serif TC",serif;line-height:1.4}
+@media(max-width:950px) and (min-width:761px){.nav{gap:13px}.nav .lang-switch{padding-left:13px}.nav>a:not(.nav-book){font-size:.66rem;letter-spacing:.07em}.nav-book{padding:12px;font-size:.66rem}}
+@media(max-width:760px){.nav .lang-switch{border-left:0;border-top:1px solid #c8a97550;padding-left:0;margin-top:9px;padding-top:18px}.zh-home .hero h1{font-size:clamp(3.7rem,11vw,6.4rem)}}
+@media(max-width:540px){.zh-home .hero h1{font-size:clamp(3.1rem,12vw,4.7rem);line-height:1.22}.zh-home h2{font-size:clamp(2.9rem,10vw,4.5rem)}.zh-home .hero-foot{letter-spacing:.03em}.zh-home .intro::after{font-size:20rem;bottom:-65px}}
+.zh-home .sub-content h1{font-size:clamp(3.7rem,7.2vw,7rem);line-height:1.18;letter-spacing:.04em;max-width:1000px}
+.zh-home .menu-card-title{font-family:"Songti TC","Noto Serif TC","Source Han Serif TC",serif;font-size:clamp(3.2rem,4.2vw,5.2rem);line-height:1.2;letter-spacing:.04em}
+.zh-home .dish-group h3,.zh-home .banquet-card h3{line-height:1.2}
+.zh-home .menu-jumps a,.zh-home .menu-card-cta{letter-spacing:.05em}
+@media(max-width:540px){.zh-home .sub-content h1{font-size:clamp(3rem,11vw,5.2rem)}.zh-home .menu-card-title{font-size:3.5rem}}
+.sub-actions{display:flex;align-items:center;flex-wrap:wrap;gap:20px 28px}
+.catalog-actions{align-items:center}
+.catalog-actions .button{min-height:46px;letter-spacing:.09em}
+.menu-order{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-top:38px}
+.menu-order p{margin:0;color:#5d4c55;line-height:1.6}
+@media(max-width:600px){.sub-actions{width:100%;align-items:stretch}.sub-actions .button{width:100%}.menu-order{align-items:stretch;flex-direction:column}.menu-order .button{width:100%}.catalog-actions .button{width:100%}}
+.nav .nav-order{color:var(--gold)}
+@media(min-width:761px) and (max-width:1170px){.menu-toggle{display:block}.nav{display:none;position:absolute;top:92px;left:0;right:0;z-index:8;background:#211320;border-bottom:1px solid #c8a9756b;padding:18px 36px 26px;flex-direction:column;align-items:stretch;gap:0;box-shadow:0 18px 30px #0b0611a3}.nav.is-open{display:flex}.nav>a:not(.nav-book){padding:13px 0;font-size:.78rem}.nav .lang-switch{border-left:0;border-top:1px solid #c8a97550;padding-left:0;margin-top:9px;padding-top:18px}.nav-book{margin-top:10px;text-align:center;padding:16px}}
